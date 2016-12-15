@@ -1,6 +1,6 @@
 # T
 Quick add CSS selector and rule into css files. It is very helpful if you 
-like write atomic css such as [Tachyons](tachyons.io)
+like write atomic css such as [Tachyons](http://tachyons.io)
 
 # Install
 
