@@ -24,7 +24,7 @@ padding-right: 100px;
 
 # Todos
 
-- [] publish to npm
-- [] others selectors
+- [ ] publish to npm
+- [ ] others selectors
 - [x] marging
 - [x] padding
