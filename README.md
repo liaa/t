@@ -24,6 +24,16 @@ padding-right: 100px;
 
 # Todos
 
+- [ ] border-color
+- [ ] border-radius
+- [ ] border-width
+- [ ] font-family
+- [ ] coordinates
+- [ ] letter-spacing
+- [ ] line-height
+- [ ] max-width
+- [ ] rotation
+- [ ] typescale
 - [x] width
 - [x] height
 - [x] marging
