@@ -1,0 +1,19 @@
+{
+  "name": "t",
+  "version": "1.0.0",
+  "description": "T makes add css rule to a css file easy.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "tachyons",
+    "functional-css"
+  ],
+  "author": "liaa",
+  "license": "ISC",
+  "preferGlobal":true,
+  "bin":{
+    "t": "index.js"
+  }
+}
