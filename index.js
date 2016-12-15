@@ -12,11 +12,17 @@ if (debug) {
 const typeFileMap = {
   "padding": "_spacing.css",
   "margin":"_spacing.css",
-  "color": "_color.css"
+  "color": "_color.css",
+  "height": "_height.css",
+  "width": "_width.css"
 }
 
 function convertSelectorToSelectorObj(selector) {
-  console.log('selector', selector);
+  // ph200px => ph (padding horizontal)
+  // mt100px => mt (margin-top)
+  // w100px => w (width)
+  // h100px => h (height)
+  // br100px =>br (border-radius)
   let cate = selector.match(/^[a-z]*/)[0];
 
   if (!cate) {
@@ -66,7 +72,6 @@ function writeSelectorObjToFile(obj, filename) {
 
 // write to file
 const obj = convertSelectorToSelectorObj(selector);
-console.log(obj)
 const filename = typeFileMap[obj.type];
 
 writeSelectorObjToFile(obj, filename)
